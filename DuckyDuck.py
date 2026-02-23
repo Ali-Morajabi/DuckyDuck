@@ -7,7 +7,6 @@ import os
 
 # 1. Setup Flask and Bot
 BOT_TOKEN = os.environ.get('DUCKYDUCK_TOKEN')
-# BOT_TOKEN = '7429676241:AAHacB_Byvxk1Dw_Ogv22qDOfOh9_KBs8mQ'
 bot = telebot.TeleBot(BOT_TOKEN)
 app = Flask(__name__)
 last_message_ids = dict()
